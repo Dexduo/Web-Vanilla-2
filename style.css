@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* .menu{
+    width: 80%;
+    text-align: right;
+} DESNECESSÁRIO*/
+
+.menu-mobile{
+    display: none;
+}
+
+.menu a{
+    color: #4169E1;
+    transition: 400ms;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.menu a:hover{
+    background-color: #4169E1;
+    color:#fff
+}
+
+.menu .btn-menu {
+    color: #fff;
+    background-color: #1E90FF;
+}
+
+.menu .btn-menu:hover{
+    color: #fff;
+    background-color: #4169E1;
+}
+
+.logo img{
+    width: 80px;
+    height: auto;
+}
+
+/* SECTION MAIN */
+
+section.main{
+    background-image: url("imagens/bgsite2.png");
+    /* background-color: rgb(245, 245, 245); */
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.main__cta h2{
+    color: #4169E1;
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: gray;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main__cta button{
+    transition: 400ms;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin: 0 10px;
+    color: #fff;
+    background-color: #1E90FF;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.main__cta button:hover{
+    color: #fff;
+    background-color: #4169E1;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    padding: 50px 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 23%;
+    margin-right: 2%;
+}
+
+section.main .diferenciais .diferencial-single i{
+    color: #4169E1;
+    font-size: 23px;
+}
+
+.diferencial-single h2{
+    margin: 10px 0;
+    color: #4169E1;
+    font-size: 20px;
+}
+
+.diferencial-single p{
+    font-size: 14px;
+    color: gray;
+    line-height: 30px;
+}
+
+section.sobre{
+    padding: 80px 0;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color: #4169E1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-sobre p{
+    color: #444444;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.conteudo-sobre i{
+    color: #4169E1;
+}
+
+.conteudo-sobre span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+section.conquistas{
+    background-color: rgb(245, 245, 245);
+    padding: 50px 0;
+}
+
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #4169E1;
+}
+
+.conquista-single h2{
+    font-weight:bolder;
+    font-size: 2em;
+}
+
+.conquista-single img{
+    max-width: 100%;
+}
+
+.conquista-single img{
+    transform: scale(1, 1);
+    filter: grayscale(100%);
+    transition: 500ms;
+}
+
+.conquista-single img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.2, 1.2);
+}
+
+.menu-items{
+    position: absolute;
+    left: 0;
+    top: -100px;
+    width: 100%;
+    text-align: center;
+    /* background-color: white; */
+    border-bottom: 2px solid #1E90FF;
+    display: block;
+    opacity: 0;
+    transition: 750ms;
+}
+
+.menu-items a{
+    display: block;
+    text-decoration: none;
+    color: #4169E1;
+}
+
+.menu-items.show{
+    opacity: 1;
+    top: 75px;
+    background-color: white;
+}
+
+section.sobre-empreendedor{
+    padding: 40px 0;
+}
+
+.sobre-empreendedor-img{
+    width: 50%;
+}
+
+.sobre-empreendedor-img img{
+    max-width: 100%;
+}
+
+.sobre-empreendedor-content{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.sobre-empreendedor-content h2{
+    color: #4169E1;
+    margin-bottom: 20px;
+}
+
+.sobre-empreendedor-content p{
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.menu-items.hide{
+    opacity: 0;
+}
+
+section.testimonials{
+    padding: 40px 0;
+}
+
+section.testimonials .testimonials-call{
+    text-align: center;
+}
+
+.testimonials-call h2{
+    color: #4169E1;
+    text-transform: uppercase;
+}
+
+.testimonials-call p{
+    color: #444;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.carousel{
+    display: flex;
+}
+
+.carousel-single{
+    width: 31%;
+    margin-right: 2%;
+    text-align: center;
+}
+.carousel-single img{
+    max-width: 100%;
+}
+
+.carousel-single-box{
+    padding: 20px;
+    background-color: #f3f9fd;
+    border-radius: 10px;
+}
+
+.carousel-single-box p{
+    font-style: italic;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+
+.carousel-single-box i{
+    color: #c9e3f5;
+    font-size: 19px;
+    padding: 0 8px;
+}
+
+.carousel-single img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.carousel-single span{
+    color: #ccc;
+}
+
+@media screen and (max-width: 768px){
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .conteudo-sobre p{
+        width: 100%;
+        margin: 20px 20px;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu-mobile i{
+        cursor: pointer;
+        font-size: 23px;
+    }
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+}
