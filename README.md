@@ -7,4 +7,10 @@
 ## EXECUÇÃO
     - Baixe os arquivos e execute o index.html
 
+
+![img1]("./imagens/git_images/1.png")
+![img1]("./imagens/git_images/1.png")
+![img1]("./imagens/git_images/1.png")
+![img1]("./imagens/git_images/1.png")
+
 **@Dexduo**
