@@ -9,8 +9,11 @@
 
 
 ![img1](./imagens/git_images/1.png)
-![img1](./imagens/git_images/1.png)
-![img1](./imagens/git_images/1.png)
-![img1](./imagens/git_images/1.png)
+
+![img1](./imagens/git_images/2.png)
+
+![img1](./imagens/git_images/3.png)
+
+![img1](./imagens/git_images/4.png)
 
 **@Dexduo**
